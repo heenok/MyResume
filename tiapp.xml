@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <property name="acs-oauth-secret-production" type="string">6xkgXFfdCURJeohSo6lOWqs6g3bUh7uN</property>
-    <property name="acs-oauth-key-production" type="string">BdP0Co21ZRLk3Xdz3WeK6Tbf5gLdwoaD</property>
-    <property name="acs-api-key-production" type="string">xX8QeeHx0Z4eX3LRMc9gx7HZc5Yik1Cs</property>
-    <property name="acs-oauth-secret-development" type="string">GumaPxZyz6eu6nAbNC7ym2oVQhZcsUMf</property>
-    <property name="acs-oauth-key-development" type="string">uEMkXnOqMtHzpxmvBsxZLXOrpIigz4iO</property>
-    <property name="acs-api-key-development" type="string">ZLGt3HunHN9ReAJQfsjKU17ALDN4QXJC</property>
     <id>com.nmoc.myresume</id>
     <name>MyFolio</name>
     <version>1.0</version>
