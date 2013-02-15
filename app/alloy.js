@@ -13,7 +13,7 @@ Alloy.Globals.sms = require('bencoding.sms').createSMSDialog({
 	barColor : '#336699'
 });
 // Alloy.Globals.someGlobalFunction = function(){};
-Alloy.Globals.messageSHARE = 'Sénicourt Cyril\'s resume on  ';
+Alloy.Globals.messageSHARE = 'Sénicourt Cyril\'s resume on https://github.com/heenok/MyResume ';
 // Email dialog
 Alloy.Globals.sendEMAIL = function(subject, recipient, message, price) {
 
