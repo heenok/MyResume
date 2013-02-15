@@ -1,0 +1,44 @@
+<Alloy>
+	<TableViewRow id="row">
+		<View class="latest">
+			<Label class="content_title" text="Latests apps" />
+			<ScrollView id="scrollView">
+				<View class="items" left="10">
+					<ImageView image="third/retro.png" />
+					<Label class="items_label1" text="Retro icons" />
+					<Label class="items_label2" text="iPhone" />
+				</View>
+				<View class="items">
+					<ImageView image="third/delta.png" />
+					<Label class="items_label1" text="Delta FM" />
+					<Label class="items_label2" text="iPhone/Android" />
+				</View>
+				<View class="items">
+					<ImageView image="third/calendar.png" />
+					<Label class="items_label1" text="Cycling Cal." />
+					<Label class="items_label2" text="iPhone" />
+				</View>
+				<View class="items">
+					<ImageView image="third/privatesms.png" />
+					<Label class="items_label1" text="Private sms" />
+					<Label class="items_label2" text="iPhone" />
+				</View>
+				<View class="items">
+					<ImageView image="third/smstranslator.png" />
+					<Label class="items_label1" text="Sms translator" />
+					<Label class="items_label2" text="iPhone" />
+				</View>
+				<View class="items">
+					<ImageView image="third/cyclingquiz.png" />
+					<Label class="items_label1" text="Cycling quiz" />
+					<Label class="items_label2" text="iPhone" />
+				</View>
+				<View class="items">
+					<ImageView image="third/3suisses.png" />
+					<Label class="items_label1" text="3 Suisses" />
+					<Label class="items_label2" text="iPhone/Android" />
+				</View>
+			</ScrollView>
+		</View>
+	</TableViewRow>
+</Alloy>

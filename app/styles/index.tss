@@ -1,0 +1,153 @@
+/* DEFAULT BEHAVIOR */
+'Window': {
+	backgroundColor: '#fff'
+},
+'Label': {
+	font: {
+		fontFamily:'Helvetica Neue',
+	}
+},
+'TableViewRow': {
+	backgroundColor:'#f5f5f5'
+},
+'TableView': {
+	allowsSelection:true,
+	selectionStyle:'none'
+},
+'View': {
+	backgroundColor:'#f5f5f5',
+},
+/* UI OF TOOLBAR */
+"Toolbar": {
+	barColor:'#000',
+	top: 0
+},
+'.infos': {
+	color:'#fff',
+	font: {
+		fontSize:20,
+		fontWeight:'bold'
+	}
+},
+'#share': {
+	right:10,
+	top:5,
+	width:45,
+	height:29,
+	title:"",
+	backgroundImage:"common/shareButton.png",
+	backgroundSelectedImage:"common/shareButtonPushed.png"
+},
+/* FIRST ROW OF THE TABLE (NEVER MOVES) */
+'#table': {
+	top:40,
+	height:370,
+	separatorStyle:'none',
+	backgroundColor:'#f5f5f5'
+},
+'#header': {
+	height:100,
+	background:"#f5f5f5"
+},
+'#icon': {
+	image:'first/icon.png',
+	width:67,
+	height:67,
+	top:10,
+	left:10
+},
+'#title': {
+	width:120,
+	color:'#3d3d3d',
+	top:10,
+	left:80,
+	font: {
+		fontSize:13,
+		fontWeight:'bold'
+	}
+},
+'#subtitle': {
+	width:150,
+	top:25,
+	left:80,
+	font: {
+		fontSize:11
+	}
+},
+'#stars': {
+	image:'first/stars.png',
+	width:75,
+	height:16,
+	top:61,
+	left:80
+},
+'#price': {
+	backgroundImage:'first/price.png',
+	color:'#6a6a6a',
+	text:'Available',
+	width:73,
+	height:25,
+	top:52,
+	right:15,
+	textAlign:'center',
+	font: {
+		fontSize:13,
+		fontWeight:'bold'
+	}
+},
+'#contacting': {
+	backgroundImage:'first/contacting.png',
+	text:'',
+	color:'#6a6a6a',
+	width:77,
+	height:25,
+	top:60,
+	right:15,
+	textAlign:'center',
+	font: {
+		fontSize:9,
+		fontWeight:'bold'
+	}
+},
+'#menu':{
+	height:45,
+	top:0,
+	borderWidth:0,
+	bakckgroundColor:"#f5f5f5"
+},
+'.tabbed_label': {
+	color:'#6a6a6a',
+	height:30,
+	top:5,
+	width:65,
+	textAlign:'center',
+	font: {
+		fontSize:13,
+		fontWeight: 'bold'
+	}
+},
+'.item_active': {
+	backgroundImage:'first/label_selected.png'
+},
+'#arrow_background': {
+	image:'first/arrow_background.png',
+	width:320,
+	height:13,
+	top:35,
+	left:0
+},
+'#arrow': {
+	image:'first/arrow.png',
+	width:15,
+	height:13,
+	top:35,
+	left:85,
+	zIndex:52
+},
+'.content': {
+	backgroundColor:'#ebebeb',
+}
+/* FAKE TAB BAR */
+'#tabbar': {
+	bottom:0
+},

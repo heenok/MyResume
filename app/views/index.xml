@@ -1,0 +1,39 @@
+<Alloy>
+	<Window>
+		<!-- ToolBar -->
+		<Toolbar platform="ios">
+			<View backgroundColor="transparent">
+				<Label class="infos">Info</Label>
+				<Button id="share" />
+			</View>
+		</Toolbar>
+		<!-- Table -->
+		<TableView id="table">
+			<!-- First row : never moves -->
+			<TableViewRow id="header">
+				<ImageView id="icon" />
+				<Label id="title" text="Cyril SÉNICOURT" />
+				<Label id="subtitle" text="Mobile & Web Ltd" />
+				<ImageView id="stars" />
+				<Label id="price" />
+			</TableViewRow>
+			<TableViewSection>
+				<!-- Custom Section for the menu -->
+				<HeaderView>
+					<View id="menu">
+						<Label class="tabbed_label item_active" id="details" left="60" onClick="doChange">Details</Label>
+						<Label class="tabbed_label" id="reviews"  left="135" onClick="doChange">Reviews</Label>
+						<Label class="tabbed_label" id="related" left="210" onClick="doChange">Related</Label>
+						<!-- Double poney for the arrow: One image move, the other not (background purpose) -->
+						<ImageView id="arrow_background" />
+						<ImageView id="arrow" />
+					</View>
+				</HeaderView>
+			</TableViewSection>
+			<!-- Require depending on menu's choice -->
+			<Require id="require" type="view" src="details" />
+		</TableView>
+		<!-- Tab Bar -->
+		<ImageView image="common/tabbar.png" id="tabbar" />
+	</Window>
+</Alloy>

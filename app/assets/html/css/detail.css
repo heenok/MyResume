@@ -1,0 +1,23 @@
+.content_title {
+	color: #3c3c3c;
+	padding-top:5px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Helvetica Neue'
+}
+
+.content_text {
+	left:10px;
+	top:35px;
+}
+
+.content_text td,p{
+	color: #646464;
+	text-align:justify;
+	font-size: 12px;
+	font-family:'Helvetica Neue'
+}
+
+.bold {
+	font-weight:bold
+}

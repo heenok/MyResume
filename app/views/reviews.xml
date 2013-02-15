@@ -1,0 +1,30 @@
+<Alloy>
+	<TableViewRow id="row">
+		<View class="facebook">
+			<Label class="content_title" text="Facebook" />
+			<ImageView id="facebook_img" />
+			<Label id="facebook_txt" text="Be the first of your friends to win a beer" />
+			<ImageView id="facebook_like" />
+		</View>
+		<View class="rankings">
+			<Label class="content_title" text="Tech. Skills Rankings" />
+			<ImageView id="rankings_img" />
+		</View>
+		<View class="xp_1">
+			<Label class="content_title" text="Mobile Developer / Project Manager" />
+			<Label class="content_text" text="Odysys. 2011-2012" />
+		</View>
+		<View class="xp_2">
+			<Label class="content_title" text="Web, Mobile Developer / Project Manager" />
+			<Label class="content_text" text="Kanga. 2018-2011" />
+		</View>
+		<View class="xp_3">
+			<Label class="content_title" text="Web Developer" />
+			<Label class="content_text" text="AFG. 2017-2008" />
+		</View>
+		<View class="xp_4">
+			<Label class="content_title" text="Web Developer" />
+			<Label class="content_text" text="CheetahMail. 2006-2007" />
+		</View>
+	</TableViewRow>
+</Alloy>

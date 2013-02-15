@@ -1,0 +1,42 @@
+<Alloy>
+	<!-- This is the row which will be updated on user's choice -->
+	<TableViewRow id="row">
+		<!-- Generation of many webviews / labels, not memory friendly (could have been a unique webview after the scroll) -->
+		<ScrollableView id="scrollableView" showPagingControl="false">
+			<View id="view1">
+				<ImageView id="promo" />
+			</View>
+		</ScrollableView>
+		<!-- WebView, feed by controller -->
+		<WebView class="description" id="description" touchEnabled="false" />
+		<View class="new">
+			<Label  text="What's New" class="content_title" />
+			<Label class="content_text" text="- Adding new apps in related section" />
+		</View>
+		<View class="informations" id="informations">
+			<Label text="Information" class="content_title" />
+			<Label class="informations_titles" top="10">Developer</Label>
+			<Label class="informations_content" top="-20">Cyril Sénicourt</Label>
+			<Label class="informations_titles">Category</Label>
+			<Label class="informations_content">Business</Label>
+			<Label class="informations_titles">Updated</Label>
+			<Label class="informations_content">19.09.1984</Label>
+			<Label class="informations_titles">Version</Label>
+			<Label class="informations_content">28.5</Label>
+			<Label class="informations_titles">Size</Label>
+			<Label class="informations_content">1.80</Label>
+			<Label class="informations_titles">Rating</Label>
+			<Label class="informations_content">18+</Label>
+			<Label class="informations_titles">Requires</Label>
+			<Label class="informations_content">Great projects</Label>
+		</View>
+		<View class="developer" id="developer">
+			<Label  text="Developer Info" class="content_title" />
+			<Label class="content_text" text="senicyril@gmail.com" top="16" left="120"/>
+		</View>
+		<View class="copyright">
+			<Label class="content_text" id="copyright" text="© Cyril Sénicourt - UI Elements : Itunes & App Store by Christophe Béghin - Titanium 3.0.0 GA / Alloy" />
+		</View>
+	</TableViewRow>
+</Alloy>
+

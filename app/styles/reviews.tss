@@ -1,0 +1,89 @@
+'View': {
+	borderWidth:0.3,
+	borderColor:'#d6d6d6'
+},
+'.row': {
+	backgroundColor:'#ebebeb',
+},
+'.facebook': {
+	top:0,
+	height:95,
+	backgroundColor:'#ebebeb'
+},
+'#facebook_img': {
+	left:10,
+	top:45,
+	image:'second/facebook.png'
+},
+'#facebook_txt': {
+	color:'#505050',
+	width:180,
+	height:'auto',
+	left:40,
+	top:40,
+	font: {
+		fontSize:13,
+		fontFamily:'Helvetica Neue'
+	}
+},
+'#facebook_like': {
+	right:10,
+	top:35,
+	width:89,
+	height:36,
+	image:'second/like.png'
+},
+'.rankings': {
+	height:150,
+	top:95,
+	backgroundColor:'#f5f5f5'
+},
+'#rankings_img': {
+	left:0,
+	top:45,
+	width:320,
+	height:89,
+	image:'second/skills.png'
+},
+'.xp_1': {
+	top:235,
+	height:60,
+	backgroundColor:'#ebebeb'
+},
+'.xp_2': {
+	top:295,
+	height:60,
+	backgroundColor:'#f5f5f5'
+},
+'.xp_3': {
+	top:355,
+	height:60,
+	backgroundColor:'#ebebeb'
+},
+'.xp_4': {
+	top:415,
+	height:60,
+	backgroundColor:'#f5f5f5'
+},
+'.content_title': {
+	width:'100%',
+	color:'#3c3c3c',
+	left:10,
+	top:15,
+	font: {
+		fontSize:14,
+		fontWeight: 'bold',
+		fontFamily:'Helvetica Neue'
+	}
+},
+'.content_text': {
+	width:'100%',
+	color:'#646464',
+	left:10,
+	textAlign:'Justify',
+	top:35,
+	font: {
+		fontSize:13,
+		fontFamily:'Helvetica Neue'
+	}
+},
